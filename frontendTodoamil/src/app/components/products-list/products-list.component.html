@@ -1,0 +1,24 @@
+<div class="col-md-4" *ngFor="let product of products">
+  <div class="card text-center">
+    <div class="card">
+      <div class="card-header d-flex justify-content-between align-items-center">
+        {{product.name}}
+        <button class="btn btn-danger">
+          <i class="bi bi-trash"></i>
+        </button>
+      </div>
+      <img src="https://www.cruzverde.com.co/dw/image/v2/BDPM_PRD/on/demandware.static/-/Sites-masterCatalog_Colombia/default/dwf2f36372/images/large/129350-1-CREMA-DENTAL-TRIPLE-ACCION-COLGATE-TUB-X-60ML.jpg?sw=1000&sh=1000" alt="" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">{{product.quantity}}</h5>
+        <p class="card-text">{{product.expiration_date}}</p>
+        <p class="card-text">{{product.admission_date}}</p>
+        <p class="card-text">{{product.mark}}</p>
+        <p class="card-text">{{product.price}}</p>
+        <a href="" class="btn btn-info btn-block">
+          EDIT
+        </a>
+      </div>
+    </div>
+  </div>
+
+</div>
