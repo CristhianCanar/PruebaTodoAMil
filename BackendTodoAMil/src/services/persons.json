@@ -1,0 +1,12 @@
+[
+    {
+        "id" : 1,
+        "name" : "Juan",
+        "lastName": "Perez",
+        "city": "Popayán",
+        "address": "Calle prueba",
+        "phone": "321444787",
+        "email": "alg@g.com",
+        "status": "activo"
+    }
+]

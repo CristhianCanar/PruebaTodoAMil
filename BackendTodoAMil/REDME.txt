@@ -1,0 +1,5 @@
+El proyecto se corre ejecutando npm run dev,
+además la configuración de la base de datos se se debe tener en cuenta,
+es decir, configurar las credenciale localmente.
+
+PDTA: Ejecutar el script de la base de datos ubicado en Documentación
